@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1.6em;
+    letter-spacing: .1em;
+    color: #222;
+    font-size: 1rem;
+    margin: 0;
+}
+.container{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header{
+    background-color: #222831;
+    text-align: center;
+    color: #fff;
+}
+#navbar{
+    background-color: #393e46;
+    color: #fff;
+    height: 30px;
+}
+#navbar ui{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 1.4rem;
+    font-size: 1rem;
+}
+#showcase{
+    background-color: #00adb5;
+    background-position: center;
+    min-height: 300px;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+#showcase h1{
+    color: #fff;
+    text-align: center;
+    line-height: 2.7rem;
+    padding-top: 2rem;
+    font-size: 2.8rem;
+}
+#main{
+    float: left;
+    width: 70%;
+    padding-left: 0 2rem;
+    box-sizing: border-box;
+}
+#main h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333;
+}
+#main p{
+    color: #555;
+}
+#sidebar {
+    float:right;
+    width: 30%;
+    background-color: #eee;
+    color: #555;
+    box-sizing: border-box;
+    padding: 1rem;
+
+}
+#main-footer{
+    background-color: #393e46;
+    text-align: center;
+    color: #fff;
+    padding:15px ;
+    margin-top: 30px;
+}
